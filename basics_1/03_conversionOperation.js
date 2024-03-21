@@ -33,6 +33,7 @@ let value = 3
 let negValue = -value
 // console.log(negValue);
 //experimenting XD
+console.log("2"+2);//op will be 22 as string
  console.log(2+2);
  console.log(2-2);
  console.log(2*2);
