@@ -1,15 +1,15 @@
 "use strict"; // treat all JS code as newer version
 
-// alert( 3 + 3) // we are using nodejs, not browser
+// alert( 3 + 3) // we are using nodejs, not browser alert works on browser
 
 console.log(3 
     +
-     3) // code readability should be high
+     3) // code readability should be high, not like this example no logic to write code like this
 
-console.log("Hitesh")
+console.log("Pranav")
 
 
-let name = "hitesh"
+let name = "Pranav"
 let age = 18
 let isLoggedIn = false
 let state;
