@@ -7,25 +7,25 @@ const mySym = Symbol("key1")
 
 
 const JsUser = {
-    name: "Hitesh",
-    "full name": "Hitesh Choudhary",
+    name: "pranav",
+    "full name": "pranav lahitkar",
     [mySym]: "mykey1",
     age: 18,
-    location: "Jaipur",
-    email: "hitesh@google.com",
+    location: "nashik",
+    email: "pranav@yahoo.com",
     isLoggedIn: false,
     lastLoginDays: ["Monday", "Saturday"]
 }
 
-// console.log(JsUser.email)
-// console.log(JsUser["email"])
-// console.log(JsUser["full name"])
-// console.log(JsUser[mySym])
+console.log(JsUser.email)
+ console.log(JsUser["email"])
+ console.log(JsUser["full name"])
+ console.log(JsUser[mySym])
 
-JsUser.email = "hitesh@chatgpt.com"
-// Object.freeze(JsUser)
-JsUser.email = "hitesh@microsoft.com"
-// console.log(JsUser);
+JsUser.email = "pranav@yahoo.com"
+Object.freeze(JsUser)//this will freeze the objects and not alloing the reconfig of object
+JsUser.email = "sanketh@microsoft.com"
+console.log(JsUser);
 
 JsUser.greeting = function(){
     console.log("Hello JS user");
