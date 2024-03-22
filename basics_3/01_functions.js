@@ -1,19 +1,19 @@
 
 function sayMyName(){
-    console.log("H");
-    console.log("I");
-    console.log("T");
-    console.log("E");
-    console.log("S");
-    console.log("H");
+    console.log("P");
+    console.log("R");
+    console.log("A");
+    console.log("N");
+    console.log("A");
+    console.log("V");
 }
 
-// sayMyName()
+sayMyName()
 
-// function addTwoNumbers(number1, number2){
+ function addTwoNumbers(number1, number2){
 
-//     console.log(number1 + number2);
-// }
+    console.log(number1 + number2);
+ }
 
 function addTwoNumbers(number1, number2){
 
@@ -24,10 +24,12 @@ function addTwoNumbers(number1, number2){
 
 const result = addTwoNumbers(3, 5)
 
-// console.log("Result: ", result);
+ console.log("Result: ", result);
 
+ 
 
-function loginUserMessage(username = "sam"){
+//---------------
+function loginUserMessage(username = "pannu"){
     if(!username){
         console.log("PLease enter a username");
         return
@@ -35,21 +37,28 @@ function loginUserMessage(username = "sam"){
     return `${username} just logged in`
 }
 
-// console.log(loginUserMessage("hitesh"))
-// console.log(loginUserMessage("hitesh"))
-
+console.log(loginUserMessage("pranav"))
+ console.log(loginUserMessage())
+ //op pranav just logged in
+//pannu just logged in
+//---------------
 
 function calculateCartPrice(val1, val2, ...num1){
     return num1
 }
 
 // console.log(calculateCartPrice(200, 400, 500, 2000))
+//---------------
 
+//objects
 const user = {
-    username: "hitesh",
+    username: "kkw",
     prices: 199
 }
+//---------------
 
+
+//--------------- here we pass the object 
 function handleObject(anyobject){
     console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
 }
@@ -59,7 +68,7 @@ handleObject({
     username: "sam",
     price: 399
 })
-
+//--------------- 
 const myNewArray = [200, 400, 100, 600]
 
 function returnSecondValue(getArray){

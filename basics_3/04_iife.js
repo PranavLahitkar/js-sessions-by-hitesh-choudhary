@@ -7,6 +7,9 @@
 })();
 
 ( (name) => {
-    console.log(`DB CONNECTED TWO ${name}`);
-} )('hitesh')
+    console.log(`DB CONNECTED to ${name}`);
+} )('lahitkar and sons')
 
+//DB CONNECTED
+//DB CONNECTED to lahitkar and sons
+//directly invoes the fc=ucntion without calling them

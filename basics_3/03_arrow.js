@@ -1,39 +1,39 @@
 const user = {
-    username: "hitesh",
-    price: 999,
+    username: "pranav",
+    price: 9009,
 
     welcomeMessage: function() {
         console.log(`${this.username} , welcome to website`);
         console.log(this);
     }
 
-}
+}//fucntion inside the object accseded using '.' operator
 
 // user.welcomeMessage()
-// user.username = "sam"
+// user.username = "pappya"
 // user.welcomeMessage()
 
 // console.log(this);
 
-// function chai(){
-//     let username = "hitesh"
+// function learnings(){
+//     let username = "pranav"
 //     console.log(this.username);
 // }
 
 // chai()
 
 // const chai = function () {
-//     let username = "hitesh"
+//     let username = "pranav"
 //     console.log(this.username);
 // }
 
-const chai =  () => {
-    let username = "hitesh"
+const learnings =  () => {
+    let username = "pranav"
     console.log(this);
 }
 
 
-// chai()
+learnings()
 
 // const addTwo = (num1, num2) => {
 //     return num1 + num2
