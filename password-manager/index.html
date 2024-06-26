@@ -1,0 +1,65 @@
+<!Doctype hmtl>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PassX - Your personal password manager</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Password manager</h1>
+        Welcome to our passwrod manager to maneg your passwords
+        <h2>Your password</h2>
+        <table>
+            <tr>
+                <th>Website</th>
+                <th>Username</th>
+                <th>Password</th>
+                <th>Actions</th>
+            </tr>
+            <tr>
+                <td>CWH</td>
+                <td>pranav@gmail.com</td>
+
+            </tr>
+            <tr>
+                <td>Harry</td>
+                <td>100</td>
+            </tr>
+        </table>
+
+        <h2>Add a password</h2>
+        <form action="/submit" method="post">
+            <!-- Text input for username -->
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br><br>
+
+            <!-- Password input -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br><br>
+
+            <!-- Submit button -->
+            <button class="btn" type="submit">Submit</button>
+        </form>
+    </div>
+
+
+<script src="script.js"></script>
+</body>
+
+</html>
